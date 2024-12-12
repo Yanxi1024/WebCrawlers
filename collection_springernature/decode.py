@@ -10,7 +10,7 @@ import re
 
 srcdb = 'This is srcdb'
 
-db_name = 'zt_pre_meta_a'
+db_name = 'DB_name'
 sub_db_id = '00***'
 doc_type = '**'
 uri_final = 'mongodb://This is MongoDB'
