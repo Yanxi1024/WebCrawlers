@@ -9,7 +9,7 @@ import time
 
 #related config
 GlobalCollectorNum = 30
-srcdb = 'cacmhyywinfo'
+srcdb = 'cacm'
 uri = 'mongodb://This is Mongodb URL'
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"}
 
