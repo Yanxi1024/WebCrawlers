@@ -9,7 +9,7 @@ import time
 
 #related config
 GlobalCollectorNum = 30
-srcdb = 'springernature'
+srcdb = 'This is srcdb'
 uri = 'mongodb://This is MongoDB'
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"}
 proxies = {
