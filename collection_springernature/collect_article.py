@@ -9,7 +9,7 @@ import time
 
 #related config
 GlobalCollectorNum = 30
-srcdb = 'springernature'
+srcdb = 'This us srcdb'
 uri = 'mongodb://This is MongoDB'
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"}
 proxies = {
@@ -180,7 +180,6 @@ class FailedInfoProcessor(threading.Thread):
     def __init__(self):
         super(FailedInfoProcessor, self).__init__()
 
-        self.uri = 'mongodb://rwany:ztdata@mongo3:27017,mongo4:27017,mongo5:27017/eagejournal?authSource=admin&replicaSet=rs0&w=majority&wtimeoutMS=20000&readConcernLevel=majority&readPreference=secondaryPreferred&connectTimeoutMS=20000&socketTimeoutMS=200000'
         self.conn = pymongo.MongoClient(self.uri)
         self.db = self.conn[srcdb]
         self.coll = self.db['secList']
