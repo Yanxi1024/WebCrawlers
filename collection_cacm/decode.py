@@ -8,7 +8,7 @@ import time
 
 srcdb = 'cacm'
 
-db_name = 'zt_pre_meta_a'
+db_name = 'DB_name'
 sub_db_id = 'This is sub_db_id'
 doc_type = 'This is doc_type'
 uri_final = 'mongodb://This is MongoDB'
