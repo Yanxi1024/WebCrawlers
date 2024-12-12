@@ -9,7 +9,7 @@ import time
 import json
 
 #related config
-srcdb = 'cacmhyywinfo'
+srcdb = 'cacm'
 url = f'https://www.cacm.org.cn/category/hyyw/'
 uri = 'mongodb://This is Mongodb URL'
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"}
