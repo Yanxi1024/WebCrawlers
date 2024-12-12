@@ -8,7 +8,7 @@ import time
 import re
 # import pandas as pd
 
-srcdb = 'springernature'
+srcdb = 'This is srcdb'
 
 db_name = 'zt_pre_meta_a'
 sub_db_id = '00***'
